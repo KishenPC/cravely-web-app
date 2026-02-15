@@ -48,9 +48,9 @@ async function seed() {
   // ──────────────────────────────────────────────
   const users = await User.insertMany([
     {
-      name: 'Aarav Sharma',
-      email: 'aarav@example.com',
-      college: 'IIT Delhi',
+      name: 'Meet Kareliya',
+      email: 'meet@example.com',
+      college: 'VIT Vellore',
       points: 120,
       totalReviews: 8,
       totalUpvotes: 25,
